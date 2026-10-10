@@ -1,0 +1,17 @@
+{
+  "name": "telegram-resource-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Telegram bot and website for sharing files you own or are authorized to distribute.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
